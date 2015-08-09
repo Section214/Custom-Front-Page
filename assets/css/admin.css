@@ -1,0 +1,126 @@
+/* Fix color picker label alignment
+-------------------------------------------------------------- */
+.custom-front-page-color-picker-label label {
+    vertical-align: top;
+    line-height: 24px;
+}
+
+
+/* Info styles
+-------------------------------------------------------------- */
+.custom-front-page-info {
+    min-height: 20px;
+    padding: 8px 19px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 4px;
+    position: relative;
+}
+
+.custom-front-page-info-notice {
+    margin: 5px 0 15px;
+    background-color: #ffffff;
+    border: 0;
+    -webkit-box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+    box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+    padding: 1px 12px;
+}
+
+.custom-front-page-info-notice p {
+    margin: .5em 0;
+    padding: 2px;
+}
+
+.custom-front-page-info-desc {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.custom-front-page-info .custom-front-page-info-icon,
+.custom-front-page-info-notice .custom-front-page-info-icon {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.custom-front-page-info-icon i {
+    font-size: 2em;
+}
+
+.custom-front-page-info-desc {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.custom-front-page-info.custom-front-page-info-normal {
+    background-color: #eeeeee;
+    border-color: #cccccc;
+    color: #666666;
+}
+
+.custom-front-page-info.custom-front-page-info-normal i {
+    color: #c5c5c5;
+}
+
+.custom-front-page-info.custom-front-page-info-warning {
+    background-color: #fbeba4;
+    border-color: #d7c281;
+    color: #958234;
+}
+
+.custom-front-page-info.custom-front-page-info-warning i {
+    color: #dcca81;
+}
+
+.custom-front-page-info.custom-front-page-info-success {
+    background-color: #c4ee91;
+    border-color: #71af5d;
+    color: #4d7615;
+}
+
+.custom-front-page-info.custom-front-page-info-success i {
+    color: #a0ca6c;
+}
+
+.custom-front-page-info.custom-front-page-info-critical {
+    background-color: #fba1a3;
+    border-color: #b84f5b;
+    color: #981225;
+}
+
+.custom-front-page-info.custom-front-page-info-critical i {
+    color: #dd767d;
+}
+
+.custom-front-page-info-notice.custom-front-page-info-normal {
+    border-left: 4px solid #0099d5;
+}
+
+.custom-front-page-info-notice.custom-front-page-info-success {
+    border-left: 4px solid #7ad03a;
+}
+
+.custom-front-page-info-notice.custom-front-page-info-warning {
+    border-left: 4px solid #fbeba4;
+}
+
+.custom-front-page-info-notice.custom-front-page-info-critical {
+    border-left: 4px solid #dd3d36;
+}
+
+/* Template tag list styles
+-------------------------------------------------------------- */
+.custom-front-page-tag-list {
+    font-size: .8rem;
+    margin-left: 1rem;
+}
+
+.custom-front-page-tag-list .custom-front-page-tag-list-tag {
+    display: inline-block;
+    width: 7rem;
+    font-weight: bold;
+}
+
+.custom-front-page-tag-list .custom-front-page-tag-list-description {
+    display: inline-block;
+    clear: both;
+}
